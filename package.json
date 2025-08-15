@@ -1,0 +1,23 @@
+{
+  "name": "supabase-whatsapp-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "bot.mjs",
+  "scripts": {
+    "start": "node bot.mjs"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "@supabase/supabase-js": "^2.55.0",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "open": "^10.2.0",
+    "qrcode": "^1.5.4"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
