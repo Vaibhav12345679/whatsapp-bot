@@ -7,6 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import pkg from '@whiskeysockets/baileys';
 import { createClient } from '@supabase/supabase-js';
+const AUTH_DIR = process.env.AUTH_DIR || './auth_info'; // keep this
 
 const {
   default: makeWASocket,
